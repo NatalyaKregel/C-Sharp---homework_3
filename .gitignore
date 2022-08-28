@@ -1,0 +1,14 @@
+char selection;
+        Double x1, x2, y1, y2, z1, z2, distance;
+
+        Console.WriteLine("1. Расстояние между двумя точками на плоскости.");
+        Console.WriteLine("2. Расстояние между двумя точками в пространстве.");
+        Console.WriteLine("Выберите нужный пункт (1 или 2):");
+
+        selection = Convert.ToChar(Console.ReadLine());
+
+        switch (selection)
+        {
+            case '1':
+                Console.Write("Введите координаты x1: ");
+                x1 = Convert.ToDouble(Console.
